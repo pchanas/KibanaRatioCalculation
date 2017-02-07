@@ -18,8 +18,11 @@ This plugin has only been tested with teh following stacks:
 
 Easiest way is to copy the zip file somewhere and then:
 
-    `bin/kibana plugin --install ratiocalculation -u file:///<path to the zip>/ratiocalculation.zip`
+    `bin/kibana plugin --install ratiocalculation -u file:///<path to the zip file>`
 
+# How to desinstall it
+
+    `bin/kibana plugin --remove ratiocalculation`
 
 # How to use it
 
