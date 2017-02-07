@@ -4,7 +4,16 @@ Small plugin to be able to compute metrics like percentage
 # References and Thanks
 This plugin is largerly inspired from [Oxalide/kibana_metric_vis_colors](https://github.com/Oxalide/kibana_metric_vis_colors), Kibana legacy metric plugin and [Tim Roes tutorials](https://www.timroes.de/2015/12/06/writing-kibana-4-plugins-visualizations-using-data/) (many thanks to him for his clear and efficient web site).
 
+
+
 # How to install it
+
+This plugin has only been tested with teh following stacks:
+
+| Kibana 4 | 
+| ------------- |
+|    elasticsearch-2.4.3  |
+|    kibana-4.6.2-darwin-x86_64     |
 
 Easiest way is to copy the zip file somewhere and then:
 
@@ -13,6 +22,24 @@ Easiest way is to copy the zip file somewhere and then:
 
 # How to use it
 
+Plugin will appear in the Kibana visualization page, select it.
+
+![Kibana visualization page](./images/vizPage.png)
+
+Then, as usal choose your search source, you will get this:
+
+![ratioCalcStep1](./images/ratioCalcStep1.png)
+
+Metric field (numerator) is useless: we will just count the number of document.
+Bucket area allows you te select which filter you want to use or which field you xant to consider.
+
+![ratioCalcStep2](./images/ratioCalcStep2.png)
+
+On the example, we look at "statut.raw" dans we want to know, for each possible value of this field, which percentage it represent of the whole data i.e. we compute (100 * (#document with value1 / #hits)), rounded to 2 decimals.
+
+![ratioCalcResults](./images/ratioCalcResults.png)
+
+As you can see you can manager colors and font sizes in the options.
 
 # My apologies
 
