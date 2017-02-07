@@ -9,7 +9,7 @@ Thanks to [jpparis-orange](https://github.com/jpparis-orange) for his valuable h
 
 # How to install it
 
-This plugin has only been tested with teh following stacks:
+This plugin has only been tested with the following stacks:
 
 | Kibana 4 | 
 | ------------- |
@@ -18,11 +18,15 @@ This plugin has only been tested with teh following stacks:
 
 Easiest way is to download the zip file from master branch somewhere and then:
 
-    `bin/kibana plugin --install ratiocalculation -u file:///<path to the zip file>`
+```
+bin/kibana plugin --install ratiocalculation -u file:///<path to the zip file>
+```
 
 # How to desinstall it
 
-    `bin/kibana plugin --remove ratiocalculation`
+```
+bin/kibana plugin --remove ratiocalculation
+```
 
 # How to use it
 
