@@ -5,10 +5,11 @@ complaints, etc!
 
 ## Have an Idea or Feature Request?
 
-* File a ticket on [github](https://github.com/jpparis-orange/kibtool/issues)
+* File a ticket on [github](https://github.com/pchanas/KibanaRatioCalculation/issues)
+* Feel free to contribute [github](https://github.com/pchanas/KibanaRatioCalculation/pulls)
 
 ## Something Not Working? Found a Bug?
 
 If you think you found a bug, it probably is a bug.
 
-* File it on [github](https://github.com/jpparis-orange/kibtool/issues)
+* File it on [github](https://github.com/pchanas/KibanaRatioCalculation/issues)
