@@ -16,7 +16,7 @@ This plugin has only been tested with teh following stacks:
 |    elasticsearch-2.4.3  |
 |    kibana-4.6.2-darwin-x86_64     |
 
-Easiest way is to copy the zip file somewhere and then:
+Easiest way is to download the zip file from master branch somewhere and then:
 
     `bin/kibana plugin --install ratiocalculation -u file:///<path to the zip file>`
 
