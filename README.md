@@ -2,8 +2,7 @@
 Small plugin to be able to compute metrics like percentage
 
 # References and Thanks
-This plugin is largerly inspired from Oxalide/kibana_metric_vis_colors 
-(https://github.com/Oxalide/kibana_metric_vis_colors), Kibana legacy metric plugin and [Tim Roes tutorials](https://www.timroes.de/2015/12/06/writing-kibana-4-plugins-visualizations-using-data/) (many thanks to him for his clear and efficient web site).
+This plugin is largerly inspired from [Oxalide/kibana_metric_vis_colors](https://github.com/Oxalide/kibana_metric_vis_colors), Kibana legacy metric plugin and [Tim Roes tutorials](https://www.timroes.de/2015/12/06/writing-kibana-4-plugins-visualizations-using-data/) (many thanks to him for his clear and efficient web site).
 
 # How to install it
 
