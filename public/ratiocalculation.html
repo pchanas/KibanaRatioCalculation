@@ -1,0 +1,6 @@
+<div ng-controller="RatiocalculationController" class="ratio-vis-colors" ng-style="{'background': vis.params.bgColor , 'color': vis.params.fontColor}">
+  <div class="ratio-container" ng-repeat="ratio in ratios">
+      <div class="ratio-value" ng-style="{'font-size': vis.params.valueSize+'pt'}">{{ratio.value}}</div>
+      <div class="ratio-label" ng-style="{'font-size': vis.params.labelSize+'pt'}">{{ratio.label}}</div>
+  </div>
+</div>
